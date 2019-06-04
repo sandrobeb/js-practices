@@ -9,7 +9,7 @@ function f(arr) {
             a = (arr[0] - arr[1]) / arr[2];
         }
     }
-    console.log(a);
+    return a;
 }
 
-f([9, 3, 2])
+console.log(f([9, 3, 2]));

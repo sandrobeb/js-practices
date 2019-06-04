@@ -9,7 +9,7 @@ function f(arr) {
             a = a + item;
         }
     }
-    console.log(a);
+    return a;
 }
 
-f([1, 1, 1])
+console.log(f([1, 1, 1]));

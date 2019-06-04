@@ -6,7 +6,7 @@ function f(numbers) {
     }
     if (Array.isArray(numbers)) {
         for (i of numbers) {
-            console.log(i);
+            return i;
         }
     }
     else {

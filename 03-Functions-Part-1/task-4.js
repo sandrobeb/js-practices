@@ -3,26 +3,26 @@ function f(n) {
         throw Error('Parameter type should be a Number');
     }
     if (n == 1) {
-        console.log("ორშაბათი");
+        return "ორშაბათი";
     }
     if (n == 2) {
-        console.log("სამშაბათი");
+        return "სამშაბათი";
     }
     if (n == 3) {
-        console.log("ოთხშაბათი");
+        return "ოთხშაბათი";
     }
     if (n == 4) {
-        console.log("ხუთშაბათი");
+        return "ხუთშაბათი";
     }
     if (n == 5) {
-        console.log("პარასკევი");
+        return "პარასკევი";
     }
     if (n == 6) {
-        console.log("შაბათი");
+        return "შაბათი";
     }
     if (n == 7) {
-        console.log("კვირა");
+        return "კვირა";
     }
 }
 
-f(1)
+console.log(f(1));

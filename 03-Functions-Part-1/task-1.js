@@ -1,9 +1,10 @@
 function f(n) {
     if (typeof n === 'number') {
-        return console.log(n ** 3);
+        return n ** 3;
     }
     else {
         throw Error('parameter type is not a Number');
     }
 }
-f(2)
+
+console.log(f(2));

@@ -7,20 +7,20 @@ function f() {
             arr2.push(item);
         }
     }
-    console.log(arr2);
+    return arr2;
 }
-f()
+console.log(f());
 
 function isPositive(n) {
     if (typeof n !== 'number') {
         throw Error('Parameter type should be a Number');
     }
-        if (n > 0) {
-            console.log(true);
-        }
-        else {
-            console.log(false);
-        }
-    } 
+    if (n > 0) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
 
-isPositive(3)
+console.log(isPositive(3));
