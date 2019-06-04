@@ -7,7 +7,10 @@ const person = {
         const today = new Date();
         const day = today.getDate();
         return day * this.rate;
+    },
 
+    set salary(ragaca) {
+        throw new Error('Cannot set');
     }
 }
 
