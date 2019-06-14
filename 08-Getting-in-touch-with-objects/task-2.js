@@ -12,6 +12,15 @@ const person = {
     set salary(ragaca) {
         throw new Error('Cannot set');
     }
+
+
+
+
+
+
+
+
+    
 }
 
 Object.defineProperty(person, 'rate', {
