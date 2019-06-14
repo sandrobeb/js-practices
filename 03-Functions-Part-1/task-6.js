@@ -2,12 +2,12 @@ function isEven(n) {
     if (typeof n !== 'number') {
         throw Error('parameter type is not a Number');
     }
-    if (n % 2 == 0) {
-        return true;
+    if (n %2 ==0) {
+        console.log(true);
     }
     else {
-        return false;
+        console.log(false);
     }
 }
 
-console.log(isEven(3));
+isEven(3)
